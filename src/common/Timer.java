@@ -2,7 +2,6 @@ package common;
 
 /**
  * @author aneeshashutosh
- * @package common
  * <p/>
  * A class that calculates the runtime of a program.
  */

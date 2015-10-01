@@ -2,7 +2,6 @@ package common;
 
 /**
  * @author aneeshashutosh
- * @package common
  * <p/>
  * The main class for all Project Euler problems. Times the runtime of each problem.
  */
