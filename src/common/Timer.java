@@ -3,20 +3,25 @@ package common;
 /**
  * @author aneeshashutosh
  * @package common
+ * <p/>
+ * A class that calculates the runtime of a program.
  */
+
 public class Timer {
 	private static long startTime;
 	private static long endTime;
 
-	public Timer() {
-		super();
-	}
-
-	public static void startTimer() {
+	/**
+	 * Gets the current time.
+	 */
+	public static void startTimer () {
 		Timer.startTime = System.currentTimeMillis();
 	}
 
-	public static void endTimer() {
+	/**
+	 * Gets the time at the end of the run. Prints the total runtime in milliseconds.
+	 */
+	public static void endTimer () {
 		Timer.endTime = System.currentTimeMillis();
 		System.out.println("Runtime: " + (Timer.endTime - Timer.startTime) + " milliseconds.");
 	}
