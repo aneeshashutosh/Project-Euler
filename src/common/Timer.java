@@ -2,8 +2,8 @@ package common;
 
 /**
  * @author aneeshashutosh
- * <p/>
- * A class that calculates the runtime of a program.
+ *
+ *         A class that calculates the runtime of a program.
  */
 
 public class Timer {
