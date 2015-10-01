@@ -13,7 +13,9 @@ public class ProjectEuler {
 		// problem1.MultiplesOf3And5.run();
 		// problem2.EvenFibonacciNumbers.run();
 		// problem3.LargestPrimeFactor.run();
-		problem4.LargestPalindromeProduct.run();
+		// problem4.LargestPalindromeProduct.run();
+		// problem5.SmallestMultiple.run();
+		problem6.SumSquareDifference.run();
 
 		Timer.endTimer();
 	}
